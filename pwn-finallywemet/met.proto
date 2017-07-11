@@ -1,0 +1,44 @@
+syntax = "proto2";
+message Command {
+  enum CommandType {
+    MEMORY = 1;
+    WRITE = 2;
+    READ = 3;
+    EXIT = 4;
+    OTHER = 5;
+  }
+  enum SIZE {
+    _1K = 7;
+    _2K = 6;
+    _4K = 5;
+    _8K = 4;
+    _16K = 3;
+    _100K = 2;
+    _150K = 1;
+  }
+
+  required uint64 id = 1;
+  required CommandType type = 2;
+  optional uint32 count = 3;
+  optional uint64 ammount = 4;
+  optional SIZE size = 5;
+}
+
+message Request {
+    repeated Command command = 1;
+}
+
+message Result {
+  enum StatusType {
+    SUCCESS = 1;
+    FAILED = 2;
+  }
+  required uint64 id = 1;
+  required StatusType status = 2;
+  optional string msg = 3;
+
+}
+
+message Response {
+    repeated Result result = 1;
+}
