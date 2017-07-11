@@ -1,0 +1,10 @@
+called: gcc
+	/home/giosch/Downloads/tutorial_07
+	gcc
+	-Wall
+	-pedantic
+	-Werror
+	-c
+	-s
+	src/audio.c
+

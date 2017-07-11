@@ -1,0 +1,8 @@
+gcc -Wall -pedantic -Werror -c -s src/audio.c
+src/audio.c: In function ‘playSound’:
+src/audio.c:24:6: error: type of ‘index’ defaults to ‘int’ [-Werror=implicit-int]
+ void playSound(index)
+      ^
+cc1: all warnings being treated as errors
+makefile:12: recipe for target 'audio.o' failed
+make: *** [audio.o] Error 1

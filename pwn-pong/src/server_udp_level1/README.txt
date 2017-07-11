@@ -1,0 +1,7 @@
+- Titolo: Pong level 1
+- Descrizione: Warm-up: read the file flag1 in the same folder of the elf of the level
+- Categoria/e: PWN
+- Points: 15
+- Builder della challenge: makefile nella cartella level1
+- Deployment: il programma server_fork gestisce il deploy di tutti i livelli a richiesta
+- Soluzione: vedi exploits/exploits1.py. Un banale buffer overflow nel parsing delle istruzioni in arrivo al server permette di controllare l'eip e di richiamare la funzione secret() che invia la flag tramite udp. 

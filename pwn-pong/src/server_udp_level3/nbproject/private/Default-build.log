@@ -1,0 +1,1 @@
+gcc server.c -g -o server.o /usr/local/lib/libuv.a -pthread

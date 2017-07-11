@@ -1,0 +1,7 @@
+- Titolo: Pong level 3
+- Descrizione: Last 30 seconds without losing against the server and it'll send you the flag.
+- Categoria/e: REVERSING/PROGRAMMING
+- Points: 20  (non sono sicuro, un ping elevato protrebbe rendere abbastanza difficile scrivere un bot)
+- Builder della challenge: makefile nella cartella level3
+- Deployment: il programma server_fork gestisce il deploy di tutti i livelli a richiesta
+- Soluzione: Il controllo dei tempi di campionamento dell'input (tasti/tick) viene fatto dal client, quindi il server accetta anche di più di quelli del client standard. La palla è molto più veloce del normale e il player è molto lento, ma mandando più pacchetti su tick riesce a muoversi abbastanza veloce da prendere la palla. La parte più difficile credo sia il lag compensation, visto che bot che ho provato vanno in locale ma in remoto non sono affidabili.

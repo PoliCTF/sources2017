@@ -1,0 +1,7 @@
+- Titolo: Pong level 2
+- Descrizione: flag is in the file flag2, in the same directory of the elf.
+- Categoria/e: PWN
+- Points: 40
+- Builder della challenge: makefile nella cartella level2
+- Deployment: il programma server_fork gestisce il deploy di tutti i livelli a richiesta
+- Soluzione: Nel listener dei pacchetti UDP è presente un buffer overflow che permette di scrivere una ROP, necessara a aprire il file della flag, leggerlo e inviarlo con la funzione presente nel programma per inviare pacchetti UDP al client 
