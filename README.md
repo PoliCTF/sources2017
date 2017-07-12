@@ -7,6 +7,7 @@ Sources (and exploits) of (some of the) 2017 PoliCTF challenges - for more mater
 * [Guessthenumber](https://github.com/polictf/sources2017/tree/master/pwn-guessthenumber), pwn 509, 0 solves
 * [Poliwars](https://github.com/polictf/sources2017/tree/master/pwn-poliwars), pwn 484, 3 solves
 * [Pong (level 1 and level 2)](https://github.com/polictf/sources2017/tree/master/pwn-pong), pwn 418 (12 solves) and pwn 418 (12 solves)
+* [LameRMI](https://github.com/polictf/sources2017/tree/master/pwn-lamermi), pwn 484, 3 solves
 
 ## Revering
 

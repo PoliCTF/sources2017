@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lamermi.iml" filepath="$PROJECT_DIR$/lamermi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lamermi_client.iml" filepath="$PROJECT_DIR$/.idea/modules/lamermi_client.iml" group="lamermi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lamermi_common.iml" filepath="$PROJECT_DIR$/.idea/modules/lamermi_common.iml" group="lamermi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lamermi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lamermi_main.iml" group="lamermi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lamermi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lamermi_test.iml" group="lamermi" />
+    </modules>
+  </component>
+</project>
