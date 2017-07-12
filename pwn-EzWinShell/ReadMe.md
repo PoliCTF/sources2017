@@ -160,11 +160,6 @@ Judging from the comments I'd say mission accomplished ;)
 - solved it with the callbacks, was a cool idea!  
 - argh, i also thought tls was only on startup :'(  
   
-**[Download C source]({{ site.url }}/writeups_files/EzWinShell/Main.cpp)**  
-**[Download exe challenge]({{ site.url }}/writeups_files/EzWinShell/NesosPwnableWin.exe)**  
-**[Download pdb]({{ site.url }}/writeups_files/EzWinShell/NesosPwnableWin.pdb)**   
-**[Download python exploit script]({{ site.url }}/writeups_files/EzWinShell/nesospwn.py)**  
-  
 Thanks anyone for playing!  
 Greetings from Italy  
 Nesos  
