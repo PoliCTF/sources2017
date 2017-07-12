@@ -1,0 +1,6 @@
+Bill is a computer science student
+Bill managed to lock himself out of his own vps again
+Bill remembers on the server is still running a small program he wrote to understand RMI, and that to get it working he
+blindly copypasted snippets from stackoverflow and it's professors slides
+Maybe there's still hope of getting the flag he left there.
+Please help Bill

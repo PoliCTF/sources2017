@@ -1,0 +1,49 @@
+group 'it.polictf'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/common/java'
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+
+    common
+
+    client {
+        java {
+            srcDir 'src/common/java'
+            srcDir 'src/client/java'
+        }
+    };
+}
+
+jar {
+    manifest {
+        attributes(["Main-Class": "it.polictf.lamermi.Server"])
+    }
+}
+
+task genPackage(dependsOn: [jar, commonClasses]){
+    doLast {
+        copy {
+            from jar
+            from 'polictf/flag'
+            from 'security.policy'
+            from 'start.sh'
+            into 'build/package'
+        }
+        copy {
+            from 'build/classes/common/'
+            into 'build/package/codebase'
+        }
+    }
+}
