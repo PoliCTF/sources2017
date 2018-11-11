@@ -8,7 +8,9 @@ Sources (and exploits) of (some of the) 2017 PoliCTF challenges - for more mater
 * [Poliwars](https://github.com/polictf/sources2017/tree/master/pwn-poliwars), pwn 484, 3 solves
 * [Pong (level 1 and level 2)](https://github.com/polictf/sources2017/tree/master/pwn-pong), pwn 418 (12 solves) and pwn 418 (12 solves)
 * [LameRMI](https://github.com/polictf/sources2017/tree/master/pwn-lamermi), pwn 484, 3 solves
+* [EzWinShell](https://github.com/PoliCTF/sources2017/tree/master/pwn-EzWinShell), pwn 492, 2 solves
 
-## Revering
+## Reverse Engineering
 
+* [PowderToyCPU](https://github.com/PoliCTF/sources2017/tree/master/reversing-PowderToyCPU), reversing 500, 1 solve
 * [Pasticciotto](https://github.com/PoliCTF/pasticciotto), reversing 509 (0 solves)
